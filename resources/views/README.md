@@ -46,40 +46,46 @@ Unduh project dari GitHub ke komputer kamu:
 ```bash
 git clone https://github.com/avvlinnn/laravel-portofolio.git
 cd laravel-portofolio
+```
 2️⃣ Install Dependency
 Jalankan perintah berikut untuk menginstal library Laravel:
 
-bash
+```bash
 Salin kode
 composer install
+```
 3️⃣ Konfigurasi File Environment
 Salin file contoh:
 
-bash
+```bash
 Salin kode
 cp .env.example .env
-Lalu buka file .env dan sesuaikan bagian database:
 
-bash
+Lalu buka file .env dan sesuaikan bagian database:
+makefile
+
 Salin kode
 DB_DATABASE=nama_database
 DB_USERNAME=root
 DB_PASSWORD=
+```
+
 4️⃣ Generate Application Key
 Buat kunci aplikasi Laravel agar sistem keamanan aktif:
 
-bash
+```bash
 Salin kode
 php artisan key:generate
+```
 5️⃣ Jalankan Server
 Nyalakan server Laravel lokal:
 
-bash
+```bash
 Salin kode
 php artisan serve
 Buka di browser: http://127.0.0.1:8000
 ```
 👩🏻‍💻 Developer
-Awalin Nisa’ (2023150016)
-Mahasiswa FASTIKOM UNSIQ
+Awalin Nisa' (2023150016)
+Mahasiswa Fastikom Unsiq
 
