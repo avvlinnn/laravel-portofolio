@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌙 Laravel Portfolio  
+#  Laravel Portfolio 🌙
 **By Alin**  
 
 *A minimalist portfolio website built with Laravel.*  
@@ -50,14 +50,14 @@ cd laravel-portofolio
 
 2️⃣ Install Dependency
 Jalankan perintah berikut untuk menginstal library Laravel:
-Salin kode
+
 ```bash
 composer install
 ```
 
 3️⃣ Konfigurasi File Environment
 Salin file contoh:
-Salin kode
+
 ```bash
 cp .env.example .env
 ```
@@ -65,7 +65,7 @@ Lalu buka file .env dan sesuaikan bagian database:
 ```bash
 makefile
 ```
-Salin kode
+
 ```bash
 DB_DATABASE=nama_database
 DB_USERNAME=root
@@ -74,22 +74,20 @@ DB_PASSWORD=
 
 4️⃣ Generate Application Key
 Buat kunci aplikasi Laravel agar sistem keamanan aktif:
-Salin kode
+
 ```bash
 php artisan key:generate
 ```
 
 5️⃣ Jalankan Server
 Nyalakan server Laravel lokal:
-Salin kode
+
 ```bash
 php artisan serve
 ```
 Buka di browser: http://127.0.0.1:8000
 
 👩🏻‍💻 Developer
-
 Awalin Nisa' (2023150016)
-
 Mahasiswa Fastikom Unsiq
 
