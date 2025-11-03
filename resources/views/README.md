@@ -88,6 +88,8 @@ php artisan serve
 Buka di browser: http://127.0.0.1:8000
 
 👩🏻‍💻 Developer
+
 Awalin Nisa' (2023150016)
+
 Mahasiswa Fastikom Unsiq
 
